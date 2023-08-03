@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+img {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px #888;
+}
+a {
+  margin-top: 100px;
+        text-decoration: none;
+      }
+      a:link {
+        color: #000;
+        border-bottom: 1px solid #ff0000;
+      }
+      a:visited {
+        color: #e600e6;
+        border-bottom: 1px solid #b3b3b3;
+      }
+      a:hover {
+        color: #2d8653;
+        border-bottom: 1px solid #000099;
+      }
+h1{
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 14px;
+}
+img{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optional: Set a base style for images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the container (optional) */
+img{
+  width: 300px;
+  height: 200px;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+/* Apply hover effect */
+img {
+  transition: transform 0.3s; /* Add a smooth transition */
+}
+
+img:hover {
+  transform: scale(1.1); /* Scale the image up by 10% on hover */
+}
+/* Apply general styles to the table */
+table {
+  border-collapse: collapse;
+}
+
+/* Apply styles to table cells */
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Apply a different background color to header cells */
+th {
+  background-color: #f2f2f2;
+}
+
+/* Apply a hover effect on cells */
+td:hover {
+  background-color: #eaeaea;
+}
