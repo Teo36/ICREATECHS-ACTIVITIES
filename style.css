@@ -60,7 +60,7 @@ img{
 
 /* Apply hover effect */
 img {
-  transition: transform 0.3s; /* Add a smooth transition */
+  transition: transform 0.2s; /* Add a smooth transition */
 }
 
 img:hover {
@@ -74,7 +74,7 @@ table {
 /* Apply styles to table cells */
 th,
 td {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   padding: 10px;
   text-align: center;
 }
