@@ -23,8 +23,30 @@ body {
     gap: 10px;
   }
   
-  label, input, textarea {
+  input[type="text"] {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="email"] {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  textarea {
     width: 100%;
+    max-width: 100%;
+    resize: vertical;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
   
   input[type="submit"] {
@@ -39,4 +61,3 @@ body {
   input[type="submit"]:hover {
     background-color: #45a049;
   }
-  
