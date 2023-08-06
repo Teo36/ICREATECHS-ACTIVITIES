@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="#" method="POST">
+      <h1>Survey</h1>
+      
+      <label for="name" class="label-text">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="age" class="label-text">Age:</label>
+      <input type="number" id="age" name="age" min="18" max="120" placeholder="Enter your age" required>
+
+      <label class="label-text">Gender:</label>
+      <label class="btn-label">
+        <input type="radio" name="gender" value="Male" required>Male
+      </label>
+      <label class="btn-label">
+        <input type="radio" name="gender" value="Female" required>Female
+      </label>
+      <label class="btn-label">
+        <input type="radio" name="gender" value="Other" required>Other
+      </label>
+
+      <label class="label-text">Which programming languages do you know?</label>
+      <label class="btn-label">
+        <input type="checkbox" name="language" value="HTML">HTML
+      </label>
+      <label class="btn-label">
+        <input type="checkbox" name="language" value="CSS">CSS
+      </label>
+      <label class="btn-label">
+        <input type="checkbox" name="language" value="JavaScript">JavaScript
+      </label>
+      <label class="btn-label">
+        <input type="checkbox" name="language" value="Python">Python
+      </label>
+      <label class="btn-label">
+        <input type="checkbox" name="language" value="Java">Java
+      </label class="btn-label">
+      <label class="btn-label">
+        <input type="checkbox" name="language" value="PHP">PHP
+      </label>
+      <label for="comments" class="label-text">Comments:</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="Write your comments here..."></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
